@@ -1,0 +1,57 @@
+import { Colors } from "./types";
+
+export const baseColors = {
+  failure: "#F33F67",
+  primary: "#6868FF",
+  primaryBright: "#53DEE9",
+  primaryDark: "#6565F1",
+  secondary: "#6969FF",
+  success: "#29DCA2",
+  warning: "#FFB237",
+};
+
+export const brandColors = {
+  binance: "#F0B90B",
+};
+
+export const lightColors: Colors = {
+  ...baseColors,
+  ...brandColors,
+  background: "#F9F9FF",
+  backgroundDisabled: "#E5EAEF",
+  contrast: "#2D3033",
+  invertedContrast: "#FEFEFF",
+  input: "#F1F1FB",
+  inputSecondary: "#CACAF1",
+  tertiary: "#EEEEF5",
+  text: "#262636",
+  textDisabled: "#BDC2C4",
+  textSubtle: "#4444C6",
+  borderColor: "#E9EAEB",
+  card: "#FEFEFF",
+  gradients: {
+    bubblegum: "linear-gradient(139.73deg, #F6F6FF 0%,#DDDDFF 100%)",
+  },
+};
+
+export const darkColors: Colors = {
+  ...baseColors,
+  ...brandColors,
+  secondary: "#7878FF",
+  background: "#181822",
+  backgroundDisabled: "#454756",
+  contrast: "#FEFEFF",
+  invertedContrast: "#2D3033",
+  input: "#303240",
+  inputSecondary: "#505096",
+  primaryDark: "#6565F1",
+  tertiary: "#2C2F3B",
+  text: "#F2F2FF",
+  textDisabled: "#606271",
+  textSubtle: "#8282FF",
+  borderColor: "#33373C",
+  card: "#232430",
+  gradients: {
+    bubblegum: "linear-gradient(139.73deg, #33333F 0%, #44447A 100%)",
+  },
+};
