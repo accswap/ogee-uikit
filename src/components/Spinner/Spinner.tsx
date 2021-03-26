@@ -3,7 +3,6 @@ import styled, { keyframes } from "styled-components";
 import OgeeIcon from "./OgeeIcon";
 import { SpinnerProps } from "./types";
 
-
 const float = keyframes`
 	0% {
 		transform: translatey(0px);
@@ -20,7 +19,6 @@ const Container = styled.div`
   position: relative;
 `;
 
-
 const FloatingOgeeIcon = styled(OgeeIcon)`
   position: absolute;
   top: 30px;
@@ -32,7 +30,7 @@ const FloatingOgeeIcon = styled(OgeeIcon)`
 const Spinner: React.FC<SpinnerProps> = ({ size = 96 }) => {
   return (
     <Container>
-      <FloatingOgeeIcon width={`${size* 0.75}px`} />
+      <FloatingOgeeIcon width={`${size * 0.75}px`} />
     </Container>
   );
 };

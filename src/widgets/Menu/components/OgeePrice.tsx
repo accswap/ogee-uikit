@@ -23,7 +23,10 @@ const PriceLink = styled.a`
 
 const OgeePrice: React.FC<Props> = ({ ogeePriceUsd }) => {
   return ogeePriceUsd ? (
-    <PriceLink href="https://info.ogee.finance/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82" target="_blank">
+    <PriceLink
+      href="https://info.ogee.finance/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+      target="_blank"
+    >
       <OgeefinanceRoundIcon width="24px" mr="8px" />
       <Text color="textSubtle" bold>{`$${ogeePriceUsd.toFixed(3)}`}</Text>
     </PriceLink>

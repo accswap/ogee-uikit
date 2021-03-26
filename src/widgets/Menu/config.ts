@@ -120,18 +120,18 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "#",
+        href: "https://t.me/ogeefinance",
       },
       {
         label: "Announcements",
-        href: "#",
+        href: "https://t.me/ogeefinanceann",
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "#",
+    href: "https://twitter.com/ogee_finance",
   },
   {
     label: "CoinMarketCap",

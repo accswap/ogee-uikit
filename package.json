@@ -1,6 +1,6 @@
 {
   "name": "@ogeefinance/uikit",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Set of UI components for ogee finance projects",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/ogeefinance/ogee-uikit",
+  "repository": "https://github.com/ogeefinance/uikit",
   "license": "MIT",
   "scripts": {
     "build": "rm -rf ./dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
@@ -54,7 +54,6 @@
     "babel-loader": "^8.1.0",
     "babel-plugin-styled-components": "^1.11.1",
     "eslint": "^7.20.0",
-    "husky": "4.3.5",
     "jest": "^26.6.3",
     "jest-styled-components": "^7.0.3",
     "np": "^7.4.0",

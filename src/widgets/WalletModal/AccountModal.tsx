@@ -13,17 +13,30 @@ interface Props {
   onDismiss?: () => void;
 }
 
-const AccountModal: React.FC<Props> = ({ account, logout, onDismiss = () => null }) => (
+const AccountModal: React.FC<Props> = ({
+  account,
+  logout,
+  onDismiss = () => null,
+}) => (
   <Modal title="Your wallet" onDismiss={onDismiss}>
     <Text
       fontSize="20px"
       bold
-      style={{ whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", marginBottom: "8px" }}
+      style={{
+        whiteSpace: "nowrap",
+        overflow: "hidden",
+        textOverflow: "ellipsis",
+        marginBottom: "8px",
+      }}
     >
       {account}
     </Text>
     <Flex mb="32px">
-      <LinkExternal small href={`https://hecoinfo.com/address/${account}`} mr="16px">
+      <LinkExternal
+        small
+        href={`https://hecoinfo.com/address/${account}`}
+        mr="16px"
+      >
         View on HecoInfo
       </LinkExternal>
       <CopyToClipboard toCopy={account}>Copy Address</CopyToClipboard>
