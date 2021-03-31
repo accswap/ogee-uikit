@@ -56,7 +56,7 @@ export type Colors = {
   gradients: Gradients;
 
   // Brand colors
-  binance: string;
+  huobi: string;
 };
 
 export type ZIndices = {

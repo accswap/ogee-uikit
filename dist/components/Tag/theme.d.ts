@@ -26,7 +26,7 @@ export declare const styleVariants: {
     textSubtle: {
         backgroundColor: string;
     };
-    binance: {
+    huobi: {
         backgroundColor: string;
     };
     failure: {
