@@ -2258,10 +2258,10 @@
     mkdirp "^1.0.4"
     rimraf "^2.7.1"
 
-"@pancakeswap-libs/eslint-config-pancake@0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@pancakeswap-libs/eslint-config-pancake/-/eslint-config-pancake-0.1.0.tgz#109863752b77106bf2721d639c9a17e89002879d"
-  integrity sha512-wJBZike/rd2f/9Vep6yNyA8qqRl7UBW55ppYvPaJa61HjethJ113hcUxWzgbQ35OfnLO5beuTBFqR/rypJ5V/A==
+"@ogeefinance/eslint-config-ogee@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@ogeefinance/eslint-config-ogee/-/eslint-config-ogee-1.0.1.tgz#a2ce47bfec4c34f9670fe5b72a2b8f6827300efa"
+  integrity sha512-ZAUT647h1nvIQEFKSAOMZJg6qzvnWXo//SLNfb0n4iXro9jDCdTS9tdd+qH6ouLe9WORd+FJR7U5mhbaNqJtJA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.7.0"
     "@typescript-eslint/parser" "^4.7.0"
