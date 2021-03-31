@@ -36,7 +36,7 @@
     "@babel/preset-env": "^7.12.16",
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
-    "@pancakeswap-libs/eslint-config-pancake": "0.1.0",
+    "@ogeefinance/eslint-config-ogee": "1.0.1",
     "@rollup/plugin-typescript": "^8.2.0",
     "@storybook/addon-a11y": "^6.1.18",
     "@storybook/addon-actions": "^6.1.18",
