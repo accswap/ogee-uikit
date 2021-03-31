@@ -13,11 +13,11 @@ const SocialLinks: React.FC = () => (
     {socials.map((social, index) => {
       const Icon = Icons[social.icon];
       const iconProps = {
-        width: "20px",
+        width: "24px",
         color: "textSubtle",
         style: { cursor: "pointer" },
       };
-      const mr = index < socials.length - 1 ? "4px" : 0;
+      const mr = index < socials.length - 1 ? "10px" : 0;
       if (social.items) {
         return (
           <Dropdown

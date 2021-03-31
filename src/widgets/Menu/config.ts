@@ -115,6 +115,11 @@ export const links = [
 
 export const socials = [
   {
+    label: "Twitter",
+    icon: "TwitterIcon",
+    href: "https://twitter.com/ogee_finance",
+  },
+  {
     label: "Telegram",
     icon: "TelegramIcon",
     items: [
@@ -129,9 +134,9 @@ export const socials = [
     ],
   },
   {
-    label: "Twitter",
-    icon: "TwitterIcon",
-    href: "https://twitter.com/ogee_finance",
+    label: "Github",
+    icon: "GithubIcon",
+    href: "https://github.com/ogeefinance",
   },
   {
     label: "CoinMarketCap",
