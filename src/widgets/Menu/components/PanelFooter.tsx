@@ -4,7 +4,7 @@ import { CogIcon } from "../../../components/Svg";
 import IconButton from "../../../components/Button/IconButton";
 import { MENU_ENTRY_HEIGHT } from "../config";
 import { PanelProps, PushedProps } from "../types";
-// import OgeePrice from "./OgeePrice";
+import OytPrice from "./OytPrice";
 import ThemeSwitcher from "./ThemeSwitcher";
 import SocialLinks from "./SocialLinks";
 import LangSelector from "./LangSelector";
@@ -39,7 +39,7 @@ const PanelFooter: React.FC<Props> = ({
   pushNav,
   toggleTheme,
   isDark,
-//  ogeePriceUsd,
+  oytPriceUsd,
   currentLang,
   langs,
   setLang,
@@ -57,7 +57,7 @@ const PanelFooter: React.FC<Props> = ({
   return (
     <Container>
       <SocialEntry>
-      {/*  <OgeePrice ogeePriceUsd={ogeePriceUsd} /> */}
+        <OytPrice oytPriceUsd={oytPriceUsd} />
         <SocialLinks />
       </SocialEntry>
       <SettingsEntry>

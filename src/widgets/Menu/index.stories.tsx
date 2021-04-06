@@ -31,7 +31,7 @@ const useProps = () => {
     langs,
     setLang: noop,
     currentLang: "EN",
-    ogeePriceUsd: 0.023158668932877668,
+    oytPriceUsd: 0.023158668932877668,
     links,
     profile: null,
   });
@@ -47,7 +47,7 @@ const useProps = () => {
         langs,
         setLang: noop,
         currentLang: "EN",
-        ogeePriceUsd: 0.023158668932877668,
+        oytPriceUsd: 0.023158668932877668,
         links,
         profile: null,
       });
@@ -142,7 +142,7 @@ export const WithNoProfile: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        ogeePriceUsd={0.23158668932877668}
+        oytPriceUsd={0.23158668932877668}
         links={links}
         profile={{
           profileLink: "/profile",
@@ -190,7 +190,7 @@ export const WithProfile: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        ogeePriceUsd={0.23158668932877668}
+        oytPriceUsd={0.23158668932877668}
         links={links}
         profile={{
           username: "ogee",
@@ -246,7 +246,7 @@ export const WithSubmenuSelected: React.FC = () => {
   return (
     <MemoryRouter initialEntries={["/teams"]}>
       <Menu
-        account="0xbdda50183d817c3289f895a4472eb475967dc980"
+        account="0xf7e522999cA7F1306D4df1B5eFcCFAB6A1eD99d6"
         login={noop}
         logout={noop}
         isDark={false}
@@ -254,11 +254,11 @@ export const WithSubmenuSelected: React.FC = () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        ogeePriceUsd={0.23158668932877668}
+        oytPriceUsd={0.23158668932877668}
         links={links}
         profile={{
           username: "ogee",
-          image: "https://ogee.finance/images/nfts/blueberries-preview.png",
+          image: "https://ogeeswap.com/images/nfts/blueberries-preview.png",
           profileLink: "/profile",
           noProfileLink: "/no-profile",
         }}

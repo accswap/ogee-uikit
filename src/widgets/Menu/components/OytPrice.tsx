@@ -5,7 +5,7 @@ import Text from "../../../components/Text/Text";
 import Skeleton from "../../../components/Skeleton/Skeleton";
 
 interface Props {
-  ogeePriceUsd?: number;
+  oytPriceUsd?: number;
 }
 
 const PriceLink = styled.a`
@@ -21,18 +21,18 @@ const PriceLink = styled.a`
   }
 `;
 
-const OgeePrice: React.FC<Props> = ({ ogeePriceUsd }) => {
-  return ogeePriceUsd ? (
+const OytPrice: React.FC<Props> = ({ oytPriceUsd }) => {
+  return oytPriceUsd ? (
     <PriceLink
-      href="https://info.ogee.finance/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82"
+      href="https://info.ogeeswap.com/token/0xf7e522999cA7F1306D4df1B5eFcCFAB6A1eD99d6"
       target="_blank"
     >
-      <OgeefinanceRoundIcon width="24px" mr="8px" />
-      <Text color="textSubtle" bold>{`$${ogeePriceUsd.toFixed(3)}`}</Text>
+      <OgeefinanceRoundIcon width="20px" mr="4px" />
+      <Text color="textSubtle" bold>{`$${oytPriceUsd.toFixed(3)}`}</Text>
     </PriceLink>
   ) : (
     <Skeleton width={80} height={24} />
   );
 };
 
-export default React.memo(OgeePrice);
+export default React.memo(OytPrice);
