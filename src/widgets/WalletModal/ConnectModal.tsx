@@ -31,7 +31,7 @@ const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (
       />
     ))}
     <HelpLink
-      href="https://docs.ogee.finance/guides/faq#how-do-i-set-up-my-wallet-on-huobi-eco-chain"
+      href="https://docs.hecochain.com/#/wallet"
       external
     >
       <HelpIcon color="primary" mr="6px" />
