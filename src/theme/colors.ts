@@ -17,7 +17,7 @@ export const brandColors = {
 export const lightColors: Colors = {
   ...baseColors,
   ...brandColors,
-  background: "radial-gradient(50% 50% at 50% 50%, rgba(89, 89, 244, 0.15) 0%, rgba(255, 255, 255, 0) 100%)",
+  background: "radial-gradient(50% 50% at 50% 50%, rgba(89, 89, 244, 0.15) 0%, rgba(249, 249, 255, 0) 100%)",
   backgroundDisabled: "#E5EAEF",
   contrast: "#16181D",
   invertedContrast: "#F7F7FD",
