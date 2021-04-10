@@ -1,6 +1,6 @@
 import React from "react";
 interface Props {
-    ogeePriceUsd?: number;
+    oytPriceUsd?: number;
 }
 declare const _default: React.NamedExoticComponent<Props>;
 export default _default;
