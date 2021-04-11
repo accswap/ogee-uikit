@@ -20,3 +20,5 @@ export { default as TwitterIcon } from "./Twitter";
 export { default as CgIcon } from "./Cg";
 export { default as CmcIcon } from "./Cmc";
 export { default as AuditIcon } from "./Audit";
+export { default as BurnIcon } from "./Burn";
+export { default as RoadmapIcon } from "./Roadmap";

@@ -90,6 +90,16 @@ export const links = [
     ],
   },
   {
+    label: "Roadmap",
+    icon: "RoadmapIcon",
+    href: "/roadmap",
+  },
+  {
+    label: "Burned Details",
+    icon: "BurnIcon",
+    href: "/burn",
+  },
+  {
     label: "More",
     icon: "MoreIcon",
     items: [
