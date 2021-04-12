@@ -161,7 +161,7 @@ export const socials = [
   {
     label: "Audit",
     icon: "AuditIcon",
-    href: "#",
+    href: "https://www.certik.org/projects/ogee",
   },
 ];
 

@@ -2915,7 +2915,7 @@ var socials = [
     {
         label: "Audit",
         icon: "AuditIcon",
-        href: "#",
+        href: "https://www.certik.org/projects/ogee",
     },
 ];
 var MENU_HEIGHT = 64;
