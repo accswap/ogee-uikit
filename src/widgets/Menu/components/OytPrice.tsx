@@ -24,7 +24,7 @@ const PriceLink = styled.a`
 const OytPrice: React.FC<Props> = ({ oytPriceUsd }) => {
   return oytPriceUsd ? (
     <PriceLink
-      href="https://info.ogeeswap.com/token/0xf7e522999cA7F1306D4df1B5eFcCFAB6A1eD99d6"
+      href="https://info.ogeeswap.com/token/0x38F950511a2479206aC640818f1F7bd093277E02"
       target="_blank"
     >
       <OgeefinanceRoundIcon width="20px" mr="4px" />

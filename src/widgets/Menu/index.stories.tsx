@@ -134,7 +134,7 @@ export const WithNoProfile: React.FC = () => {
   return (
     <BrowserRouter>
       <Menu
-        account="0xbdda50183d817c3289f895a4472eb475967dc980"
+        account="0x38F950511a2479206aC640818f1F7bd093277E02"
         login={noop}
         logout={noop}
         isDark={false}
@@ -246,7 +246,7 @@ export const WithSubmenuSelected: React.FC = () => {
   return (
     <MemoryRouter initialEntries={["/teams"]}>
       <Menu
-        account="0xf7e522999cA7F1306D4df1B5eFcCFAB6A1eD99d6"
+        account="0x38F950511a2479206aC640818f1F7bd093277E02"
         login={noop}
         logout={noop}
         isDark={false}
