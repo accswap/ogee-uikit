@@ -15,7 +15,7 @@ const connectors: Config[] = [
   {
     title: "HuobiWallet",
     icon: HuobiWallet,
-    connectorId: ConnectorNames.WalletConnect,
+    connectorId: ConnectorNames.Injected,
   },
   {
     title: "MathWallet",

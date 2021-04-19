@@ -9,6 +9,7 @@ import Panel from "./components/Panel";
 import UserBlock from "./components/UserBlock";
 import { NavProps } from "./types";
 import Avatar from "./components/Avatar";
+import NetworkLinks from "./components/NetworkLinks";
 import {
   MENU_HEIGHT,
   SIDEBAR_WIDTH_REDUCED,
@@ -133,6 +134,7 @@ const Menu: React.FC<NavProps> = ({
           href={homeLink?.href ?? "/"}
         />
         <Flex>
+         <NetworkLinks />
           <UserBlock account={account} login={login} logout={logout} />
           {profile && <Avatar profile={profile} />}
         </Flex>

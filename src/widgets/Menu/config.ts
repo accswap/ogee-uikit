@@ -165,6 +165,25 @@ export const socials = [
   },
 ];
 
+export const networks = [
+  {
+    label: "HECO",
+    icon: "HecoIcon",
+    items: [
+      {
+        label: "BSC",
+        icon: "BscIcon",
+        href: "https://cheeseswap.app",
+      },
+      {
+        label: "AVAX",
+        icon: "AvaxIcon",
+        href: "#",
+      },
+    ],
+  },
+];
+
 export const MENU_HEIGHT = 64;
 export const MENU_ENTRY_HEIGHT = 48;
 export const SIDEBAR_WIDTH_FULL = 240;
