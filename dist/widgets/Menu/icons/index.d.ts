@@ -1,3 +1,5 @@
+export { default as AvaxIcon } from "./Avax";
+export { default as BscIcon } from "./Bsc";
 export { default as FarmIcon } from "./Farm";
 export { default as GroupsIcon } from "./Groups";
 export { default as HamburgerIcon } from "./Hamburger";
@@ -6,6 +8,7 @@ export { default as HomeIcon } from "./Home";
 export { default as IfoIcon } from "./Ifo";
 export { default as InfoIcon } from "./Info";
 export { default as GithubIcon } from "./Github";
+export { default as HecoIcon } from "./Heco";
 export { default as LanguageIcon } from "./Language";
 export { default as LogoIcon } from "./Logo";
 export { default as MoonIcon } from "./Moon";

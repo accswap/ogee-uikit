@@ -39,7 +39,6 @@ const NetworkLinks: React.FC = () => (
                 href={item.href}
                 aria-label={item.label}
                 color="primary"
-                target={<Icon {...iconProps} mr={mr} />}
               >
                 {item.label}
               </Link>
@@ -51,7 +50,6 @@ const NetworkLinks: React.FC = () => (
         <Link
           external
           key={network.label}
-          href={network.href}
           aria-label={network.label}
           mr={mr}
           color="primary"
